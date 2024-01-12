@@ -3,7 +3,8 @@
 import os
 import csv
 
-csvpath = os.path.join('/Users/juliaolson/Python-Challenge1/PyPoll/election_data.csv')
+csvpath = os.path.join('PyPoll/election_data.csv')
+## or alternatively: csvpath = os.path.join('/Users/juliaolson/Python-Challenge1/PyPoll/election_data.csv')
 csvpath
 
 election_data = []
