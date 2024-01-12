@@ -3,7 +3,7 @@ import os
 import csv
 
 ## read in CSV (with header)
-csvpath = os.path.join('PyBank/budget_data.csv')
+csvpath = os.path.join('/Users/juliaolson/Python-Challenge1/PyBank/Resources/budget_data.csv')
 csvpath
 
 budget_data = []
@@ -83,4 +83,4 @@ file = open('output.txt', 'w')
 file.write(financial_analysis)
 file.close()
 
-git add
+    
